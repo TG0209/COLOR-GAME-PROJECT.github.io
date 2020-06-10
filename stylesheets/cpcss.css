@@ -1,0 +1,72 @@
+body{
+	background: white;
+
+	margin: 0;
+}
+h1{
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	background: steelblue;
+	line-height: 1.1;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-family: 'Dancing Script', cursive;
+}
+#title{
+	font-size: 200%;
+}
+.square{
+ 	background: purple;
+ 	width: 30%;
+ 	margin: 1.66%;
+ 	float: left;
+ 	padding-bottom: 30%;
+ 	transition: background 0.5s;
+ 	border-radius: 15%;
+
+ }
+
+ #container{
+ 	width: 600px;
+ 	margin: 20px auto;
+ }
+
+ #content{
+ 	display: inline-block;
+ 	width: 20%;
+ 	color: steelblue;
+ 	font-size: inherit;
+	font-weight: 700;
+	letter-spacing: 1px;
+ 	text-transform: uppercase;
+ }
+
+ .pressed{
+ 	color: steelblue;
+ 	background: white;
+ }
+
+button{
+	background: white;
+	color: steelblue;
+	border: 0;
+	height:100%; 
+	font-size: inherit;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+button:hover{
+	color: white;
+	background: steelblue;
+}
+ #bet{
+ 	background: white;
+ 	height : 30px;
+ 	padding-left: 0;
+ 	padding-right: 0;
+ 	text-align: center;
+ }
